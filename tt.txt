@@ -17,3 +17,5 @@ git log 查看提交历史
 git tag 设置标签
 git branch -d (branchname) 删除分支
 git merge 分支合并
+
+git merge --no-ff +分支  这样能保留合并分支的记录（禁止快进式合并）
