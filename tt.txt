@@ -1,1 +1,19 @@
-echo编写
+git checkout -b newbranch可以创建并转到新的分支
+
+git branch 查看分支 git checkout +分支名 切换分支
+git add 添加到缓存区 git commit -m “” +文件名 提交到本地库
+
+git init 本地库初始化 git config user.name 项目账户 
+git config user.email 项目账户邮箱
+git push +远程库分支 推送项目
+git remote add +名称+url 添加远程库的url 并地址命名为
+
+git remote -v 查看远程库
+git status 查看本地库状态
+git diff 查看执行git status的结果的详细信息
+git reset HEAD 用户取消已缓存的内容
+git clone +url 拷贝一个git仓库到本地
+git log 查看提交历史
+git tag 设置标签
+git branch -d (branchname) 删除分支
+git merge 分支合并
