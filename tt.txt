@@ -1,6 +1,6 @@
 git checkout -b newbranch可以创建并转到新的分支
 
-git branch 查看分支 git checkout +分支名 切换分支
+git branch 查看分支 git checkout -b+分支名 切换分支
 git add 添加到缓存区 git commit -m “” +文件名 提交到本地库
 
 git init 本地库初始化 git config user.name 项目账户 
